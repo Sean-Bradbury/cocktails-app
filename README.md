@@ -1,5 +1,7 @@
 <h1>Cocktails | Webapp</h1>
 
+<h2>Woring version of the app found here: <a href="https://sb-cocktails.netlify.app/">Cocktail App</a></h2>
+
 To run the project locally you will need to:
 
 <ol>
