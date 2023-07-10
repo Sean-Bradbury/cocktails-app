@@ -1,0 +1,40 @@
+@import '../../theming/colors.scss';
+
+.cocktail-card {
+    height: 100%;
+    border-radius: 4px;
+    border: 1px solid #DADADB;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 50px !important; 
+    width: auto !important;
+    .cocktail-card__skeleton-image {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        position: absolute;
+        top: -0.25rem;
+    }
+    .cocktail-card__image {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+    }
+
+    .cocktail-card__details-footer {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-top: 1px solid #DADADB;
+        padding: 0 1rem;
+        a {
+            color: inherit;
+            text-decoration: underline;
+        }
+    }
+    
+}

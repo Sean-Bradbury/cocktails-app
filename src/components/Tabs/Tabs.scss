@@ -1,0 +1,10 @@
+.ui.attached.tabular.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ui.tabular.menu+.attached:not(.top).segment {
+   height: 700px;
+   overflow-y: auto;
+   scroll-behavior: smooth;
+}
