@@ -33,7 +33,7 @@ const Tabs = ({ setLetter, error, filteredCocktails }: TabsProps) => {
   return (
     <Tab
       panes={panes}
-      onTabChange={(e, data) => {
+      onTabChange={(_e, data) => {
         const { activeIndex } = data;
 
         setLetter(alphabet[activeIndex as number]);
