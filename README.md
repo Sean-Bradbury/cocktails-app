@@ -1,6 +1,4 @@
-<h1>Rick and Morty | Webapp</h1>
-
-Working example found here: <a href='https://sb-rickandmorty.netlify.app/'>Rick and morty web app</a>
+<h1>Cocktails | Webapp</h1>
 
 To run the project locally you will need to:
 
